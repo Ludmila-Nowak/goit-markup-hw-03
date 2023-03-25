@@ -11,195 +11,209 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link">
-          Web<span class="span">Studio</span></a
-        >
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link">
+            Web<span class="span">Studio</span></a
+          >
 
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="header-adress">
-        <ul class="header-adress-list list">
-          <li class="header-adress-item link">
-            <a class="header-contact link" href="mailto:info@devstudio.com">
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="header-adress-item link">
-            <a class="header-contact link" href="tel:+110001111111">
-              +11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="header-adress">
+          <ul class="header-adress-list list">
+            <li class="header-adress-item link">
+              <a class="header-contact link" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="header-adress-item link">
+              <a class="header-contact link" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+
     <main>
       <section>
         <!-- Filter -->
+        <div class="container">
+          <h1 hidden>Portfolio</h1>
 
-        <h1 hidden>Portfolio</h1>
+          <ul class="list page-nav">
+            <li>
+              <button class="btn" type="button">All</button>
+            </li>
 
-        <ul class="list page-nav">
-          <li>
-            <button class="btn" type="button">All</button>
-          </li>
+            <li>
+              <button class="btn" type="button">Web Site</button>
+            </li>
+            <li>
+              <button class="btn" type="button">App</button>
+            </li>
+            <li>
+              <button class="btn" type="button">Design</button>
+            </li>
+            <li>
+              <button class="btn" type="button">Marketing</button>
+            </li>
+          </ul>
 
-          <li>
-            <button class="btn" type="button">Web Site</button>
-          </li>
-          <li>
-            <button class="btn" type="button">App</button>
-          </li>
-          <li>
-            <button class="btn" type="button">Design</button>
-          </li>
-          <li>
-            <button class="btn" type="button">Marketing</button>
-          </li>
-        </ul>
+          <!-- Our projects -->
 
-        <!-- Our projects -->
+          <ul class="list projects-list">
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/banking-app.jpg"
+                  alt="photo of the banking app"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Banking App Interface Concept</h2>
+                <p class="projects-text-item">App</p>
+              </a>
+            </li>
 
-        <ul class="list projects-list">
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/banking-app.jpg"
-                alt="photo of the banking app"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Banking App Interface Concept</h2>
-              <p class="projects-text-item">App</p>
-            </a>
-          </li>
-
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/cashless-payment.jpg"
-                alt="photo of the cashless payment"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Cashless Payment</h2>
-              <p class="projects-text-item">Marketing</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/mediaton-app.jpg"
-                alt="photo of the mediaton app"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Meditation App</h2>
-              <p class="projects-text-item">App</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/taxi-servise.jpg"
-                alt="photo of the taxi servise"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Taxi Service</h2>
-              <p class="projects-text-item">Marketing</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/screen-illustration.jpg"
-                alt="photo of the screen illustration"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Screen Illustrations</h2>
-              <p class="projects-text-item">Design</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/online-courses.jpg"
-                alt="photo of the online courses"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Online Courses</h2>
-              <p class="projects-text-item">Marketing</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/instagram-stories.jpg"
-                alt="photo of the instagram stories"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Instagram Stories Concept</h2>
-              <p class="projects-text-item">Design</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/organic-food.jpg"
-                alt="photo of the organic food"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Organic Food</h2>
-              <p class="projects-text-item">Web Site</p>
-            </a>
-          </li>
-          <li class="projekts-item link">
-            <a class="projects-img link" href="index.html">
-              <img
-                src="./images/fresh-cofee.jpg"
-                alt="photo of the fresh cofee"
-                width="360"
-                height="300"
-              />
-              <h2 class="projects-text">Fresh Coffee</h2>
-              <p class="projects-text-item">Web Site</p>
-            </a>
-          </li>
-        </ul>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/cashless-payment.jpg"
+                  alt="photo of the cashless payment"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Cashless Payment</h2>
+                <p class="projects-text-item">Marketing</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/mediaton-app.jpg"
+                  alt="photo of the mediaton app"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Meditation App</h2>
+                <p class="projects-text-item">App</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/taxi-servise.jpg"
+                  alt="photo of the taxi servise"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Taxi Service</h2>
+                <p class="projects-text-item">Marketing</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/screen-illustration.jpg"
+                  alt="photo of the screen illustration"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Screen Illustrations</h2>
+                <p class="projects-text-item">Design</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/online-courses.jpg"
+                  alt="photo of the online courses"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Online Courses</h2>
+                <p class="projects-text-item">Marketing</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/instagram-stories.jpg"
+                  alt="photo of the instagram stories"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Instagram Stories Concept</h2>
+                <p class="projects-text-item">Design</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/organic-food.jpg"
+                  alt="photo of the organic food"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Organic Food</h2>
+                <p class="projects-text-item">Web Site</p>
+              </a>
+            </li>
+            <li class="projekts-item link">
+              <a class="projects-img link" href="index.html">
+                <img
+                  src="./images/fresh-cofee.jpg"
+                  alt="photo of the fresh cofee"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="projects-text">Fresh Coffee</h2>
+                <p class="projects-text-item">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
-
     <footer class="footer">
-      <a href="./index.html" class="footer-logo link">
-        Web<span class="span-footer">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container footer-container">
+        <a href="./index.html" class="footer-logo link">
+          Web<span class="span-footer">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
