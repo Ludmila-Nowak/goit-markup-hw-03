@@ -263,6 +263,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--sekond-title-color);
+  margin-bottom: 72px;
 }
 
 .team-item {
